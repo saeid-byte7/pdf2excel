@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# App artifacts
+*.xlsx
+*.pdf
+/tmp/
+temp/
+ocr_out*/
+ocr_tmp*/
+build/
+dist/
+
+# Docker build cache (om någon råkat lägga in)
+*.tar
